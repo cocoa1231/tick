@@ -1,0 +1,13 @@
+<center><h1>Tick</h1>
+<p>Tick stands for Tick Is Cool Kiddo
+</center>
+<h2> Installation </h2>
+<code>
+python3 init.py init
+python3 init.py add .
+python3 init.py commit "init"
+</code>
+<h2>TODO</h2>
+<li>package</li>
+<li>Make a new github like website for this </li>
+<li>fetch and pull capabilities</li>
