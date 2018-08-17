@@ -3,7 +3,7 @@
 
 <h2> Installation</h2>
 <p>Clone this repo and you are done</p>
-<h2>A simple Walk through</h2>
+<h2>A simple walkthrough</h2>
 
 ```
 
