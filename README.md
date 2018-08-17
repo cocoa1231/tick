@@ -4,11 +4,15 @@
 <h2> Installation</h2>
 <p>Clone this repo and you are done</p>
 <h2>A simple Walk through</h2>
+
 ```
+
 python3 init.py init  
 python3 init.py add . 
 python3 init.py commit "init" 
+
 ```
+
 <h2>TODO</h2>
 <li>package</li>
 <li>Make a new github like website for this </li>
