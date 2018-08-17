@@ -1,5 +1,5 @@
 <h1 align="center">Tick</h1>
-<p>Tick stands for Tick Is Cool Kiddo
+<p>Tick stands for Tick Is Cool Kiddo. Made because Linus has been controlling stuff for far too long</p>
 
 <h2> Installation</h2>
 <p>Clone this repo and you are done</p>
