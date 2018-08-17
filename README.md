@@ -5,9 +5,9 @@
 <p>Clone this repo and you are done</p>
 <h2>A simple Walk through</h2>
 ```
-python3 init.py init  #initialise a new tick repo
-python3 init.py add . #add all files to staging area
-python3 init.py commit "init" #commit using message init
+python3 init.py init  
+python3 init.py add . 
+python3 init.py commit "init" 
 ```
 <h2>TODO</h2>
 <li>package</li>
