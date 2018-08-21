@@ -32,6 +32,3 @@ latest.close()
 second_latest = zipfile.ZipFile('.tick/commits/'+sorted_a[-1],'r')
 second_latest.extractall('.tick/diff/'+sorted_a[-1])
 second_latest.close()
-all_file1=[]
-all_file2=[]
-loop=0
