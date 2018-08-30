@@ -3,7 +3,11 @@ tick diff-
 couts the diffrence between last 2 commits.
 """
 import os
+import shutil
 import zipfile
+import difflib
+from subprocess import call
+
 current = os.getcwd()
 os.chdir('.tick/commits')
 sorted_a = sorted( os.listdir('.'), key=os.path.getmtime)
@@ -20,7 +24,7 @@ try:
     os.mkdir('.tick/diff/'+sorted_a[-1])
     os.mkdir('.tick/diff/'+sorted_a[-2])
 except FileExistsError:
-    shutil.rmtree(os.mkdir('.tick/diff'))
+    shutil.rmtree('.tick/diff')
 
     os.mkdir('.tick/diff')
     os.mkdir('.tick/diff/'+sorted_a[-1])
@@ -32,3 +36,4 @@ latest.close()
 second_latest = zipfile.ZipFile('.tick/commits/'+sorted_a[-1],'r')
 second_latest.extractall('.tick/diff/'+sorted_a[-1])
 second_latest.close()
+call(['colordiff','-rf','.tick/diff/'+sorted_a[-1],'.tick/diff/'+sorted_a[-2]])

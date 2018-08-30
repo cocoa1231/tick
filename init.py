@@ -1,8 +1,8 @@
 import hashlib
 import os
-import tick_py.python_scripts.stage as stage
-import tick_py.python_scripts.commit as commit
-import tick_py.python_scripts.describe as describe
+import tick.python_scripts.stage as stage
+import tick.python_scripts.commit as commit
+import tick.python_scripts.describe as describe
 import sys
 """
 Initialize Repositiory, Log , commit settings
