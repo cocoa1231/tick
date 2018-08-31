@@ -23,9 +23,9 @@ def defIn(custom,default):
 #ask for details of the repo. 
 def describe():
     
-    name=defIn(input("Enter Repository Name("+name+"):"),name)
-    author=defIn(input("Enter Author Name ("+author+"):"),author)
-    describe= {"name":name,"author":author}
+    nme=defIn(input("Enter Repository Name("+name+"):"),name)
+    aut=defIn(input("Enter Author Name ("+author+"):"),author)
+    describe= {"name":nme,"author":aut}
     
     with open('.tick/description/data.json', 'w') as outfile:
         json.dump(describe, outfile)
