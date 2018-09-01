@@ -1,7 +1,9 @@
 <h1 align="center">Tick</h1>
-<img src="tick_icon/Tick..png" width="30%" />
-<img src="tick_icon/Tick.(1).png" width="30%"/>
-<img src="tick_icon/Tick.(2).png" width="30%"/>
+<p align ="center">
+<img src="tick_icon/Tick..png" width="20%" />
+<img src="tick_icon/Tick.(1).png" width="20%"/>
+<img src="tick_icon/Tick.(2).png" width="20%"/>
+  </p>
 <p>Tick stands for Tick Is Cool Kiddo. Made because Linus has been controlling stuff for far too long</p>
   
 <h2> Installation</h2>
