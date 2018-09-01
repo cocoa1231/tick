@@ -20,9 +20,10 @@ def defIn(custom,default):
         var = custom    
     return var         
     
-#ask for details of the repo. 
+
 def describe():
-    
+    #ask for details of the repo. 
+        
     nme=defIn(input("Enter Repository Name("+name+"):"),name)
     aut=defIn(input("Enter Author Name ("+author+"):"),author)
     describe= {"name":nme,"author":aut}

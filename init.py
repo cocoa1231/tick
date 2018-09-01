@@ -4,6 +4,7 @@ import pyximport; pyximport.install()
 import tick.python_scripts.stage as stage
 import tick.python_scripts.commit as commit
 import tick.python_scripts.describe as describe
+import tick.python_scripts.diff as diff
 import sys
 """
 Initialize Repositiory, Log , commit settings
@@ -40,4 +41,6 @@ if sys.argv[1]=="init":
 elif sys.argv[1]=="add":
     stageC(sys.argv[2])
 elif sys.argv[1]=="commit":
-    commitP(sys.argv[2])    
+    commitP(sys.argv[2])   
+elif sys.argv[1] == "diff":
+    diff()     
