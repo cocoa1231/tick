@@ -6,10 +6,9 @@ import os
 import shutil
 import pyximport; pyximport.install()
 import zipfile
-import difflib
 from subprocess import call
 
-def diff():
+def tickDiff():
     """
     code for tick diff
 
@@ -46,5 +45,5 @@ def diff():
     second_latest = zipfile.ZipFile('.tick/commits/'+sorted_a[-1],'r')
     second_latest.extractall('.tick/diff/'+sorted_a[-1])
     second_latest.close()
-    call(['colordiff','-rf','.tick/diff/'+sorted_a[-1],'.tick/diff/'+sorted_a[-2]])
+    call(['colordiff','-r','-u','.tick/diff/'+sorted_a[-1],'.tick/diff/'+sorted_a[-2]])
     shutil.rmtree('.tick/diff')
