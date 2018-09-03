@@ -1,10 +1,12 @@
 """
 tick diff-
 couts the diffrence between last 2 commits.
+
 """
+
+
 import os
 import shutil
-import pyximport; pyximport.install()
 import zipfile
 from subprocess import call
 

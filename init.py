@@ -1,7 +1,6 @@
 import pyximport; pyximport.install()
 import hashlib
 import os
-import configparser
 import tick.python_scripts.stage as stage
 import tick.python_scripts.commit as commit
 import tick.python_scripts.describe as describe

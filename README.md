@@ -7,7 +7,17 @@
 <p>Tick stands for Tick Is Cool Kiddo. Made because Linus has been controlling stuff for far too long</p>
   
 <h2> Installation</h2>
-<p>Clone this repo and you are done</p>
+<p>
+
+
+```
+
+git clone https://github.com/pythongiant/tick
+chmod -x pacman.sh # Arch based OS users
+chmod -x debian.sh # Debian based OS user
+```
+
+</p>
 
 <h2>A simple walkthrough</h2>
 
@@ -17,5 +27,13 @@ python3 init.py add .
 python3 init.py commit "init" 
 
 ```
-<h2>Benchmarks</h2>
-<p>TODO:Add</P>
+<h2>Current Features</h2>
+<h4>Diff</h4>
+
+```
+python3 init.py diff  
+```
+
+<h2>TODO</h2>
+<li>Write tickignore</li>
+<li>Get Political dominion  over Mars</li>

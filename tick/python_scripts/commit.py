@@ -1,9 +1,10 @@
+#import pyximport; pyximport.install(pyimport=True)
 import os 
 import zipfile
 import hashlib
 import logging
 import shutil
-from .describe import defIn as defIn
+from .describe import defIn 
 
 
 """
