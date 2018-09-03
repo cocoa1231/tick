@@ -37,4 +37,4 @@ python3 init.py diff
 
 <h2>TODO</h2>
 <li>Write tickignore</li>
-<li>Get Political dominion  over Mars</li>
+<li>Gain Political dominion  over Mars</li>
