@@ -13,6 +13,7 @@
 ```
 
 git clone https://github.com/pythongiant/tick
+cd tick
 chmod -x pacman.sh # Arch based OS users
 chmod -x debian.sh # Debian based OS user
 ```
