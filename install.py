@@ -11,12 +11,15 @@ def get_platform():
             print("Fatal! Could not get platform, please pass it in by the --platform flag")
             raise Exception("Could not get platform")
 
-    pform = sys.argv[ sys.argv.index('--platform') + 1 ] # Get the next item to the platform flag
+    pform = sys.argv[ sys.argv.index('--platform') + 1 ].lower() # Get the next item to the platform flag
 
     return pform
 
 
 def install_ubuntu():
+    
+    print("Installing for Ubuntu Linux...")
+
     apt_packages = 'colordiff python3-pip'
     if os.system('sudo apt install {}'.format(apt_packages)):
         raise Exception("Failed to install dependencies")
@@ -31,6 +34,9 @@ def install_ubuntu():
 
 
 def install_arch():
+    
+    print("Installing for Arch Linux...")
+
     pacman_packages = 'colordiff python-pip'
     if os.system('sudo pacman -S {}'.format(pacman_packages)):
         raise Exception("Failed to install dependencies")
